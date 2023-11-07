@@ -1,0 +1,862 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>BIGGEST | Home of Decor</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="height: 100%;width: 100%;background-color:whitesmoke;">
+     <!-- Navbar start -->
+
+     <nav class="navbar navbar-expand-lg p-0" style="background-color: black;" data-bs-theme="dark">
+          <div class="container-fluid">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex" style="flex-direction: row;align-items: center;">
+                    <li class="nav-item pt-1">
+                         <a href="#" class="nav-link">
+                              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                   <i class="bi bi-justify"></i>
+                              </button>
+                         </a>
+
+                    </li>
+                    <li class="nav-item">
+                         <a href="#" class="nav-link">
+                              <i class="bi bi-search collapse-search" style="color: white;font-size: 18px;"></i>
+                         </a>
+                    </li>
+
+               </ul>
+               <ul class="navbar-nav mx-auto">
+                    <a class="navbar-brand main-logo" href="#">
+                         BIGGEST
+                    </a>
+               </ul>
+
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-lg-0 mb-2 gap-3">
+                         <li class="nav-item">
+                              <div class="dropdown">
+                                   <a class="nav-link" style="font-size: 12px;" data-bs-toggle="dropdown" aria-expanded="false" href="#">SHOP</a>
+                                   <ul class="dropdown-menu rounded-0 border-0" data-bs-theme="light">
+                                        <li><a class="dropdown-item" style="font-size: 13px;" href="#">All Artwork</a></li>
+                                        <li><a class="dropdown-item" style="font-size: 13px;" href="#">New Arrival</a></li>
+                                        <li><a class="dropdown-item" style="font-size: 13px;" href="#">Best Sellers</a></li>
+                                        <li><a class="dropdown-item" style="font-size: 13px;" href="#">Top Trending</a></li>
+                                        <li><a class="dropdown-item" style="font-size: 13px;" href="#">Custom Collage</a></li>
+                                        <li><a class="dropdown-item" style="font-size: 13px;" href="#">Extra Frame</a></li>
+                                   </ul>
+                              </div>
+                         </li>
+                         <li class="nav-item">
+                              <div class="dropdown-center">
+                                   <a class="nav-link" style="font-size: 12px;" data-bs-toggle="dropdown" aria-expanded="true" href="#">CATEGORIES</a>
+                                   <ul class="dropdown-menu rounded-0 border-0" style="min-width: max-content;" data-bs-theme="light">
+                                        <div class="container">
+                                             <div class="row">
+                                                  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                                                       <ul>
+                                                            <li style="font-size: 14px;font-weight: 600;" class="dropdown-item">CATEGORY</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Abstract</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Nature</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Pop Art</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Minimalist</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Surreal</li>
+                                                       </ul>
+                                                  </div>
+                                                  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                                                       <ul>
+                                                            <li style="font-size: 14px;font-weight: 600;" class="dropdown-item">GENRE</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Hip Hop</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Indie</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Romantic</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Psychedelic</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Adventure</li>
+                                                       </ul>
+                                                  </div>
+                                                  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                                                       <ul>
+                                                            <li style="font-size: 14px;font-weight: 600;" class="dropdown-item">MOOD</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Calming</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Euphoric</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Lonely</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Rebillious</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Wanderlust</li>
+                                                       </ul>
+                                                  </div>
+                                                  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12">
+                                                       <ul>
+                                                            <li style="font-size: 14px;font-weight: 600;" class="dropdown-item">COLORS</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Vibrant</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Black & White</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Blue</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Red</li>
+                                                            <li style="font-size: 13px;" class="dropdown-item">Warm</li>
+                                                       </ul>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </ul>
+                              </div>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" style="font-size: 12px;" href="#">ARTISTS</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" style="font-size: 12px;" href="#">FAQ</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" style="font-size: 12px;" href="#">CUSTOM</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" style="font-size: 12px;" href="#">BLOG</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" style="font-size: 12px;" href="#">REVIEWS</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" style="font-size: 12px;" href="#">SCRAPBOOK</a>
+                         </li>
+                    </ul>
+               </div>
+
+
+
+
+
+               <ul class="navbar-nav ms-auto mb-lg-0 end-nav">
+                    <li class="nav-item end-nav-tabs">
+                         <a href="#" class="nav-link d-flex" style="flex-direction: row;align-items: center;gap: 3px;">
+                              <i class="bi bi-person" style="color: white;font-size: 18px;"></i>
+                              <span style="font-size: 12px;">My Account</span>
+                         </a>
+                    </li>
+                    <li class="nav-item end-nav-tabs">
+                         <a href="#" class="nav-link">
+                              <i class="bi bi-search" style="color: white;font-size: 18px;"></i>
+                         </a>
+                    </li>
+                    <li class="nav-item end-nav-tabs">
+                         <a href="#" class="nav-link">
+                              <i class="bi bi-heart" style="color: white;font-size: 18px;"></i>
+                         </a>
+                    </li>
+                    <li class="nav-item end-nav-tabs">
+                         <a href="#" class="nav-link">
+                              <i class="bi bi-bag" style="color: white;font-size: 18px;"></i>
+                         </a>
+                    </li>
+               </ul>
+          </div>
+     </nav>
+
+     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" data-bs-scroll="true" data-bs-backdrop="false">
+          <div class="offcanvas-header">
+               <!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+               <i class="bi bi-x fs-3" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+          </div>
+          <div class="offcanvas-body gap-0 p-0">
+
+               <button class="btn w-100 rounded-0 button-hover-text" style="height: 50px;font-weight: 600;display: flex;justify-content: space-between;align-items: center;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    SHOPS <i class="bi bi-caret-down"></i>
+               </button>
+
+               <div class="collapse" id="collapseExample">
+                    <div class="card card-body d-flex p-0 pe-2 ps-2 pt-1 pb-1" style="background-color: whitesmoke;border: none;border-radius: 0px;">
+                         <button class="btn button-hover-text-inner rounded-0 text-start">All Artwork</button>
+                         <button class="btn button-hover-text-inner rounded-0 text-start">New Arrivals</button>
+                         <button class="btn button-hover-text-inner rounded-0 text-start">Best Sellers</button>
+                         <button class="btn button-hover-text-inner rounded-0 text-start">Top Trending</button>
+                         <button class="btn button-hover-text-inner rounded-0 text-start">Custom Collage</button>
+                         <button class="btn button-hover-text-inner rounded-0 text-start">Extra Frame</button>
+                    </div>
+               </div>
+
+
+
+               <button class="btn w-100 rounded-0 button-hover-text" style="height: 50px;font-weight: 600;display: flex;justify-content: space-between;align-items: center;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                    CATEGORIES <i class="bi bi-caret-down"></i>
+               </button>
+
+               <div class="collapse" id="collapseExample1">
+                    <div class="card card-body d-flex p-0 pt-1 pb-1" style="background-color: whitesmoke;border: none;border-radius: 0px;">
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start" style="color: black;background-color: rgb(230, 230, 230);font-size:15px;">Category</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Abstract</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Maximalist</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Nature</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Floral Head</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Pop Art</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Beach</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Minimalist</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Urban</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Surreal</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Astronaut</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start" style="color: black;background-color: rgb(230, 230, 230);font-size:15px;">Genre</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Hip Hop</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Romantic</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Indie</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Psychedelic</button>
+                         <button class="btn button-hover-text-inner rounded-0 pe-3 ps-3 text-start">Adventure</button>
+                    </div>
+               </div>
+
+
+               <button class="btn w-100 rounded-0 button-hover-text" style="height: 50px;font-weight: 600;display: flex;justify-content: space-between;align-items: center;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                    FAQ <i class="bi bi-caret-down"></i>
+               </button>
+
+               <div class="collapse" id="collapseExample2">
+                    <div class="card card-body d-flex p-0 pe-2 ps-2 pt-1 pb-1" style="background-color: whitesmoke;border: none;border-radius: 0px;">
+                         <button class="btn button-hover-text-inner rounded-0 text-start">All Artwork</button>
+                         <button class="btn button-hover-text-inner rounded-0 text-start">New Arrivals</button>
+                         <button class="btn button-hover-text-inner rounded-0 text-start">Best Sellers</button>
+                         <button class="btn button-hover-text-inner rounded-0 text-start">Top Trending</button>
+                         <button class="btn button-hover-text-inner rounded-0 text-start">Custom Collage</button>
+                         <button class="btn button-hover-text-inner rounded-0 text-start">Extra Frame</button>
+                    </div>
+               </div>
+
+
+               <button class="btn w-100 rounded-0 button-hover-text" style="height: 55px;font-weight: 600;display: flex;justify-content: space-between;align-items: center;" type="button">
+                    ARTISTS
+               </button>
+
+               <button class="btn w-100 rounded-0 button-hover-text" style="height: 55px;font-weight: 600;display: flex;justify-content: space-between;align-items: center;" type="button">
+                    CUSTOM
+               </button>
+
+               <button class="btn w-100 rounded-0 button-hover-text" style="height: 55px;font-weight: 600;display: flex;justify-content: space-between;align-items: center;" type="button">
+                    BLOG
+               </button>
+
+               <button class="btn w-100 rounded-0 button-hover-text" style="height: 55px;font-weight: 600;display: flex;justify-content: space-between;align-items: center;" type="button">
+                    REVIEW
+               </button>
+
+               <button class="btn w-100 rounded-0 button-hover-text" style="height: 55px;font-weight: 600;display: flex;justify-content: space-between;align-items: center;" type="button">
+                    SCRAPBOOK
+               </button>
+
+
+
+          </div>
+     </div>
+     <div class="space-carousel">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+               <div class="carousel-inner">
+                    <div class="carousel-item active">
+                         <img src="./carouselbanner1.png" class="d-block w-100" alt="Summer Collection">
+                    </div>
+                    <div class="carousel-item">
+                         <img src="./carouselbanner2.png" class="d-block w-100" alt="Top Sellers">
+                    </div>
+                    <div class="carousel-item">
+                         <img src="./carouselbanner3.png" class="d-block w-100" alt="Kids Selection">
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div class="text-center pb-4">
+          <small class="text-secondary" style="font-size: x-small;">EXPLORE THE FULL POTENTIAL</small>
+          <h3 class="text-dark" style="font-weight:800;padding-top: 15px;">New Large Wall Art's</h3>
+     </div>
+     <div class="container">
+          <main class="row">
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card mb-4 rounded-0 border-0">
+                         <img src="./card1.png" class="card-img-top card-hover-scale" alt="...">
+                         <div class="card-body text-center p-0">
+                              <p class="card-text text-dark" style="font-weight: 600;">Beautiful Orange Pattern</p>
+                              <small class="text-secondary text-center">Price:</small>
+                              <small class="text-secondary text-center">120$</small>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card mb-4 rounded-0 border-0">
+                         <img src="./card2.png" class="card-img-top card-hover-scale" alt="...">
+                         <div class="card-body text-center p-0">
+                              <p class="card-text text-dark" style="font-weight: 600;">Splash colourful paint</p>
+                              <small class="text-secondary text-center">Price:</small>
+                              <small class="text-secondary text-center">70$</small>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card mb-4 rounded-0 border-0">
+                         <img src="./card3.png" class="card-img-top card-hover-scale" alt="...">
+                         <div class="card-body text-center p-0">
+                              <p class="card-text text-dark" style="font-weight: 600;">Cool Wolves Black and Red pattern</p>
+                              <small class="text-secondary text-center">Price:</small>
+                              <small class="text-secondary text-center">120$</small>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card mb-4 rounded-0 border-0">
+                         <img src="./card4.png" class="card-img-top card-hover-scale" alt="...">
+                         <div class="card-body text-center p-0">
+                              <p class="card-text text-dark" style="font-weight: 600;">Lake Scenery with House</p>
+                              <small class="text-secondary text-center">Price:</small>
+                              <small class="text-secondary text-center">170$</small>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card mb-4 rounded-0 border-0">
+                         <img src="./card5.png" class="card-img-top card-hover-scale" alt="...">
+                         <div class="card-body text-center p-0">
+                              <p class="card-text text-dark" style="font-weight: 600;">Lake Sports Car</p>
+                              <small class="text-secondary text-center">Price:</small>
+                              <small class="text-secondary text-center">200$</small>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card mb-4 rounded-0 border-0">
+                         <img src="./card6.png" class="card-img-top card-hover-scale" alt="...">
+                         <div class="card-body text-center p-0">
+                              <p class="card-text text-dark" style="font-weight: 600;">Morning Quote</p>
+                              <small class="text-secondary text-center">Price:</small>
+                              <small class="text-secondary text-center">40$</small>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card mb-4 rounded-0 border-0">
+                         <img src="./card7.png" class="card-img-top card-hover-scale" alt="...">
+                         <div class="card-body text-center p-0">
+                              <p class="card-text text-dark" style="font-weight: 600;">PS4 Controller</p>
+                              <small class="text-secondary text-center">Price:</small>
+                              <small class="text-secondary text-center">90$</small>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card mb-4 rounded-0 border-0">
+                         <img src="./card8.png" class="card-img-top card-hover-scale" alt="...">
+                         <div class="card-body text-center p-0">
+                              <p class="card-text text-dark" style="font-weight: 600;">Jungle Sunset</p>
+                              <small class="text-secondary text-center">Price:</small>
+                              <small class="text-secondary text-center">120$</small>
+                         </div>
+                    </div>
+               </div>
+          </main>
+          <div class="text-center">
+               <button class="btn view-more-btn rounded-pill">View More</button>
+          </div>
+     </div>
+
+
+     <div class="pt-5 pe-5 pb-5 ps-5 carousel-support">
+          <div class="carousel" data-flickity='{ "groupCells": true , "autoPlay": true  , "wrapAround": true , "pageDots":false}'>
+               <div class="carousel-cell">
+                    <img src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_500x750/71557_massive-flower-head-surreal-artwork-for-your-neutral-living-room.jpg" class="img-fluid" alt="carousel-img">
+               </div>
+               <div class="carousel-cell">
+                    <img src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_500x750/71562_pairing-of-surreal-wall-art-for-your-office.jpg" class="img-fluid" alt="carousel-img">
+               </div>
+               <div class="carousel-cell">
+                    <img src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_500x750/76333_extra-large-neutral-white-surreal-wall-art-for-your-living-room.jpg" class="img-fluid" alt="carousel-img">
+               </div>
+               <div class="carousel-cell">
+                    <img src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_500x750/65667_large-moody-abstract-art-tunes-of-the-night-being-held-above-head.jpg" class="img-fluid" alt="carousel-img">
+               </div>
+               <div class="carousel-cell">
+                    <img src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_500x750/66304_large-foggy-forest-wall-art-for-your-apartment.jpg" class="img-fluid" alt="carousel-img">
+               </div>
+               <div class="carousel-cell">
+                    <img src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_500x750/67881_logo-street-painted-sneaker-art-for-your-living-room.jpg" class="img-fluid" alt="carousel-img">
+               </div>
+               <div class="carousel-cell">
+                    <img src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_500x750/47699_vintage-illustration-pot-head.jpg" class="img-fluid" alt="carousel-img">
+               </div>
+               <div class="carousel-cell">
+                    <img src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_500x750/32478_huge-wall-art-trends-floral-head-artwork.jpg" class="img-fluid" alt="carousel-img">
+               </div>
+               <div class="carousel-cell">
+                    <img src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_500x750/76443_urban3.jpg" class="img-fluid" alt="carousel-img">
+               </div>
+          </div>
+
+     </div>
+
+     <div class="pt-5 pb-5 col-9 mx-auto text-center">
+          <h3 class="text-dark pt-5 pb-3 text-center card-box-text-size" style="font-weight: 700;">Large Artwork Made Easy</h3>
+          <small class="text-secondary text-wrap ">Printed on ArtFab, a state-of-the-art fabric material that combines high-definition quality with durability. Once inserted into the frame the prints appear taut and smooth. ArtFab prints are easy to swap out of the framing when you need a change.</small>
+     </div>
+     <div>
+          <img class="img-fluid" src="https://bigwalldecor.com/wp-content/uploads/2021/11/How-It-Works-Final-3.jpg" alt="Made it Easy">
+     </div>
+     <div class="text-center container">
+          <h3 class="pt-5 pb-4 text-center" style="font-weight: 700;">How it Works</h3>
+          <div class="row">
+               <div class="col-4">
+                    <img height="390" class="img-fluid rounded-circle" src="https://bigwalldecor.com/wp-content/uploads/2021/11/Macro-Silicone-Edge-370x370.jpg" alt="">
+                    <h5 class="pt-3 card-box-text-size text-wrap" style="font-weight: 700;">Silicon Beading</h5>
+                    <small class="text-secondary text-wrap">A thin beading is sewn around the edge of each print.</small>
+               </div>
+               <div class="col-4">
+                    <img height="390" class="img-fluid rounded-circle" src="https://bigwalldecor.com/wp-content/uploads/2021/11/Macro-Frame-Assembly-370x370.jpg" alt="">
+                    <h5 class="pt-3 card-box-text-size text-wrap" style="font-weight: 700;">Infinity Framing</h5>
+                    <small class="text-secondary text-wrap">Frames assemble in just seconds with brackets and an allen key.</small>
+               </div>
+               <div class="col-4">
+                    <img height="390" class="img-fluid rounded-circle" src="https://bigwalldecor.com/wp-content/uploads/2021/11/Macro-Fabric-Insertion-370x370.jpg" alt="">
+                    <h5 class="pt-3 card-box-text-size text-wrap" style="font-weight: 700;">Edgeless Appearance</h5>
+                    <small class="text-secondary text-wrap">The silicone beading fits into a special groove in the frames.</small>
+               </div>
+          </div>
+          <div class="text-center pt-5 pb-5">
+               <button class="btn view-more-btn rounded-pill">View More</button>
+          </div>
+     </div>
+
+     <div class="pe-3 ps-3 pt-3 pb-5">
+          <div class="row">
+               <div class="col-4 text-center">
+                    <img height="400" class="img-fluid" src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_500x500/42665_huge-sizes-with-devansh.jpg" alt="">
+                    <h5 class="pt-3 card-box-text-size text-wrap" style="font-weight: 700;">Huge Sizes</h5>
+                    <small class="text-secondary text-wrap ">It's finally easy to own gallery size artwork. You won't find bigger sizes anywhere.</small>
+               </div>
+               <div class="col-4 text-center">
+                    <img height="400" class="img-fluid " src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_500x500/44184_big-wall-decor-portable-frames-prints.jpg" alt="">
+                    <h5 class="pt-3 card-box-text-size text-wrap" style="font-weight: 700;">Portable</h5>
+                    <small class="text-secondary text-wrap">Lightweight framing and durable prints for people who are always on the move.</small>
+               </div>
+               <div class="col-4 text-center">
+                    <img height="400" class="img-fluid " src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_500x500/42666_interchangeable-photo-4.jpg" alt="">
+                    <h5 class="pt-3 fs-sm-3 card-box-text-size text-wrap" style="font-weight: 700;">Inter <br>change</h5>
+                    <small class="text-secondary text-wrap">ArtFab prints can be easily swapped out of the infinity framing without the risk of damage.</small>
+               </div>
+          </div>
+     </div>
+
+     <div class="w-100 pt-5 footer-img-box">
+          <div class="container">
+               <div class="row">
+                    <div class="col-8">
+                         <img class="img-fluid w-100 h-100 pb-3" src="https://bigwalldecor.com/wp-content/uploads/cache/thumbs_930x658/42668_artist-collage-trial.png" alt="">
+                    </div>
+                    <div class="col-4">
+                         <div class="h-100" style="display: flex;flex-direction: column;align-items: center;justify-content: center;">
+                              <h3 class="text-center text-white align-center text-wrap" style="font-weight: 700;">Welcome to the New School</h3>
+                              <p class="text-center text-white ">Today's brightest creators with the freshest styles, all together in one place.</p>
+                              <button class="btn footer-img-btn rounded-pill">View all</button>
+                         </div>
+
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div class="pt-5 pb-3 text-center">
+          <h3 class="pt-5 pb-4" style="font-weight: 700;">Discover artwork by <br> style, mood, genre & tone</h3>
+     </div>
+     <div class="container" style="height: auto;">
+          <div class="row">
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
+                    <img class="img-fluid mb-4" src="https://bigwalldecor.com/wp-content/uploads/2022/10/Astro2-370x370.jpg" alt="">
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
+                    <img class="img-fluid mb-4" src="https://bigwalldecor.com/wp-content/uploads/2022/12/Large-Blue-Minimal-Inspirational-Wall-Art-370x370.jpg" alt="">
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
+                    <img class="img-fluid mb-4" src="https://bigwalldecor.com/wp-content/uploads/2022/08/Birch-Tree-Large-Fall-Wall-Art-for-your-Dining-Room-370x370.jpg" alt="">
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
+                    <img class="img-fluid mb-4" src="https://bigwalldecor.com/wp-content/uploads/2022/09/Pop-Icon-Collage-Wall-Art-for-Your-Dining-Room-370x370.jpg" alt="">
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
+                    <img class="img-fluid mb-4" src="https://bigwalldecor.com/wp-content/uploads/2022/10/floralhead1-370x370.jpg" alt="">
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
+                    <img class="img-fluid mb-4" src="https://bigwalldecor.com/wp-content/uploads/2022/10/Abstract1-370x370.jpg" alt="">
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
+                    <img class="img-fluid mb-4" src="https://bigwalldecor.com/wp-content/uploads/2022/10/Urban2-370x370.jpg" alt="">
+               </div>
+               <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center">
+                    <img class="img-fluid mb-4" src="https://bigwalldecor.com/wp-content/uploads/2022/10/Massive-Lonley-Pink-and-Gray-Surreal-Art-For-You-Living-Room-370x370.jpg" alt="">
+               </div>
+          </div>
+     </div>
+
+     <div class="mx-auto" style="position: relative;">
+          <div class="text-center pb-4">
+               <button class="btn view-more-btn rounded-pill">Browse All</button>
+          </div>
+     </div>
+
+     <div class="pt-4 pb-5 container-fluid" style="position: relative;">
+          <div class="mx-auto pb-4 text-center">
+               <h3 style="font-weight: 700;">Our Happy Customers</h3>
+          </div>
+          <div class="row">
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="review-box border container-fluid mb-2">
+                         <div class="vstack gap-1">
+                              <div class="d-flex gap-1">
+                                   <i class="bi bi-star-fill"></i>
+                                   <i class="bi bi-star-fill"></i>
+                                   <i class="bi bi-star-fill"></i>
+                                   <i class="bi bi-star-fill"></i>
+                                   <i class="bi bi-star"></i>
+                              </div>
+                              <p class="fw-semibold">Qasim</p>
+                              <p class="fw-light text-secondary">Best thing seeing currently</p>
+                         </div>
+                         <img height="150" width="150" src="https://bigwalldecor.com/wp-content/uploads/2023/01/Black-and-White-Woman-Wave-Secret-500x500.jpg" alt="" class="img-fluid">
+                    </div>
+               </div>
+               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="review-box border container-fluid mb-2">
+                         <div class="vstack gap-1">
+                              <div class="d-flex gap-1">
+                                   <i class="bi bi-star-fill"></i>
+                                   <i class="bi bi-star-fill"></i>
+                                   <i class="bi bi-star-fill"></i>
+                                   <i class="bi bi-star-fill"></i>
+                                   <i class="bi bi-star"></i>
+                              </div>
+                              <p class="fw-semibold">Aslam</p>
+                              <p class="fw-light text-secondary">Beautiful! I love it.</p>
+                         </div>
+                         <img height="150" width="150" src="https://bigwalldecor.com/wp-content/uploads/2022/03/Flower-Face-Art-500x500.jpg" alt="" class="img-fluid">
+                    </div>
+
+               </div>
+          </div>
+          <div class="pt-5 pb-5">
+               <div class="container">
+                    <h3 class="fw-bold pb-3 text-center pt-5">BIGGEST Wall Décor</h3>
+                    <p class="text-secondary text-start text-break" style="font-size: 15px;">
+                         Glad we got you all the way down here, let’s dive into the details of BIG Wall Décor. Large artwork has several benefits, aside from being aesthetically pleasing to the eye. Wall art can accentuate small living spaces. If you currently live in a studio apartment, investing in wall art is an excellent way to improve your humble abode’s look.
+                    </p>
+                    <p class="text-secondary text-start text-break" style="font-size: 15px;">
+                         Maybe you like to style your home in a more minimalist approach. Oversized artwork will complement your style! In fact, large artwork is considered to be a more modern style in terms of home décor.
+                    </p>
+                    <p class="text-secondary text-start text-break" style="font-size: 15px;">
+                         Many men and women admire and appreciate large artwork, but they can be skeptical about purchasing their own large pieces. This is due to two very common concerns regarding purchasing oversized wall art: it is not affordable, and it is too hard to transport.
+                    </p>
+                    <p class="text-secondary text-start text-break" style="font-size: 15px;">
+                         BIG Wall Décor is proud to bring customers solutions to both of these concerns. Our wall art is unbelievably affordable for everyone, no matter what your budget may be. We believe everyone deserves gorgeous large artwork from today’s top trending artists in their home or office, no matter their financial situation. So even if you are a young professional building your first art collection, our wall art is going to be affordable for you and the perfect addition to any room.
+                    </p>
+                    <p class="text-secondary text-start text-break" style="font-size: 15px;">
+                         All of BIG Wall Décor’s art prints are easily transportable. Our wall art prints are very portable and can be broken down and quickly moved, so you never have to worry about your large art being challenging to transport in or out of your building. If you ever get tired of your current art print, you can simply purchase a new one and easily change out the prints. Versatile, stylish, affordable, and mobile. Big Wall Art is the best choice when it comes to adding a new piece of art to your home.
+                    </p>
+               </div>
+          </div>
+     </div>
+
+
+
+
+     <footer class="footer" style="height: auto;background-color: black;color: white;padding-bottom: 20px;">
+          <div class="mx-auto pt-5 pb-5">
+               <h3 class="fw-bold text-center">
+                    Wall Artwork Blog
+               </h3>
+               <p class="text-center">Let us help guide you through the exciting world of oversized artwork.</p>
+          </div>
+          <div class="container" >
+               <div class="row" style="justify-content: center;">
+                    <div class="col-3">
+                         <div class="footer-spacer" style="text-align: center;">
+                              <h1 class="main-logo fs-2" >
+                                   BIGGEST
+                              </h1>
+
+                         </div>
+                    </div>
+                    <div class="col-9">
+                         <div class="row">
+                              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12" style="text-align: center;">
+                                   <p class="fw-semibold" style="font-size: 13px;color: grey;">SHOP</p>
+                                   <p class="fw-semibold" style="font-size: 13px;">All Artworks</p>
+                                   <p class="fw-semibold" style="font-size: 13px;">Collections</p>
+                                   <p class="fw-semibold" style="font-size: 13px;">Custom Collage</p>
+                                   <p class="fw-semibold" style="font-size: 13px;">Gift Card</p>
+                              </div>
+                              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12" style="text-align: center;">
+                                   <p class="fw-semibold" style="font-size: 13px;color: grey;">HELP</p>
+                                   <p class="fw-semibold" style="font-size: 13px;">Help/FAQ</p>
+                                   <p class="fw-semibold" style="font-size: 13px;">Request a Return</p>
+                                   <p class="fw-semibold" style="font-size: 13px;">Contact Us</p>
+                              </div>
+                              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12" style="text-align: center;">
+                                   <p class="fw-semibold" style="font-size: 13px;color: grey;">INFO</p>
+                                   <p class="fw-semibold" style="font-size: 13px;">Meet the Team</p>
+                                   <p class="fw-semibold" style="font-size: 13px;">Interior Design Program</p>
+                                   <p class="fw-semibold" style="font-size: 13px;">Return Policy</p>
+                                   <p class="fw-semibold" style="font-size: 13px;">Private Policy</p>
+                                   <p class="fw-semibold" style="font-size: 13px;">Terms and Conditions</p>
+                              </div>
+                              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12" style="text-align: center;">
+                                   <p class="fw-semibold" style="font-size: 13px;color: grey;">STAY IN THE LOOP</p>
+                                   <h3 class="text-white fw-bold fs-5">Sign Up for 15% Off</h3>
+                                   <p class="fw-semibold" style="font-size: 13px;">Be the first to know about special deals & promotions</p>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="second-footer">
+                         <div class="row">
+                              <div class="col-3">
+                                   <p style="color: grey;font-size: 12px;text-align: center;">© BIGGEST Wall Décor 2020</p>
+                              </div>
+                              <div class="col-9">
+                                   <div class="row">
+                                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12" style="text-align: center;">
+                                             <p class="fw-semibold" style="font-size: 13px;color: grey;">EMAIL</p>
+                                             <p class="fw-medium" style="font-size: 13px;color: grey;">kaariminnocent@gmail.com</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12" style="text-align: center;">
+                                             <p class="fw-semibold" style="font-size: 13px;color: grey;">PHONE</p>
+                                             <p class="fw-medium" style="font-size: 13px;color: grey;">+92-321-111-222-3</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12" style="text-align: center;">
+                                             <p class="fw-semibold" style="font-size: 13px;color: grey;">SOCIAL</p>
+                                             <div class="d-flex gap-3" style="text-align: center;">
+                                                  <i class="bi bi-instagram fs-4 social-icon"></i>
+                                                  <i class="bi bi-facebook fs-4 social-icon"></i>
+                                                  <i class="bi bi-twitter fs-4 social-icon"></i>
+                                             </div>
+
+                                        </div>
+                                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12" style="text-align: center;">
+                                             <div class="d-flex rounded-pill input-icon-footbox" style="text-align: center;">
+                                                  <input type="text" placeholder="Email Address" class="input-footer">
+                                                  <div class="bi bi-arrow-right-short arrow-for-footer"></div>
+                                             </div>
+
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+     </footer>
+
+     <style>
+          .dropdown-item:active{
+               background-color: black;
+               border-radius: 50px;
+          }
+          .input-footer {
+               color: white;
+               border: none;
+               outline: none;
+               background-color: transparent;
+               width: 120%;
+               font-size: 15px;
+               transition: .3s ease;
+          }
+
+          .input-icon-footbox {
+               align-items: center;
+               border: 1px solid #afafaf;
+               justify-content: center;
+               height: 50px;
+               padding: 0 15px;
+               transition: .3s ease;
+          }
+
+          .input-icon-footbox:hover {
+               border: 1.5px solid white;
+          }
+
+          .arrow-for-footer {
+               color: #afafaf;
+               font-size: 25px;
+               transition: .3s ease;
+               padding-left: 0px;
+          }
+
+          .social-icon {
+               color: white;
+               transition: .3s ease-in-out;
+               cursor: pointer;
+          }
+
+          .social-icon:hover {
+               color: grey;
+          }
+
+          .review-box {
+               display: flex;
+               justify-content: space-around;
+               align-items: center;
+               background-color: white;
+          }
+
+          .footer-img-btn {
+               height: 48px;
+               background-color: #0f3cbf;
+               color: white;
+               width: 100px;
+               font-weight: 600;
+               font-size: 15px;
+          }
+
+          .footer-img-btn:hover {
+               background-color: black;
+               color: white;
+          }
+
+          .card-box-text-size {
+               font-size: 17px;
+          }
+
+
+          .footer-img-box {
+               background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://bigwalldecor.com/wp-content/uploads/cache/thumbs_1920x658/42669_artist-collage-background-desktop-trial-1-scaled.jpg);
+               background-position: center;
+               background-size: center;
+               height: 600px;
+          }
+
+          .button-hover-text {
+               color: black;
+               font-size: 15px;
+          }
+
+          .button-hover-text-inner {
+               color: grey;
+               font-size: 13px;
+               height: 40px;
+          }
+
+          .button-hover-text:hover,
+          .button-hover-text-inner:hover {
+               color: royalblue;
+          }
+
+          .anchor-link {
+               color: white;
+               text-decoration: none;
+          }
+
+          .space-carousel {
+               padding: 40px 40px;
+          }
+
+          @media screen and (width <=991px) {
+               .space-carousel {
+                    padding: 0 0;
+               }
+
+               .footer-img-box {
+                    height: auto;
+               }
+          }
+
+          .card {
+               background-color: transparent;
+          }
+
+          .card-hover-scale {
+               scale: 0.85;
+               transition: .3s ease-in-out all;
+               cursor: pointer;
+          }
+
+          .card-hover-scale:hover {
+               scale: 0.90;
+               transform: rotate3d(0, 0, 0, 20deg);
+          }
+
+          .view-more-btn {
+               color: black;
+               font-weight: 700;
+               border: 1px solid grey;
+               font-size: 12px;
+               height: 40px;
+               width: 120px;
+          }
+
+          .view-more-btn:hover {
+               color: #0d6efd;
+               border: 1px solid #0d6efd;
+          }
+
+
+
+          .carousel {
+               height: 500px;
+          }
+
+          .carousel-cell {
+               width: 30%;
+               height: 500px;
+               margin-right: 10px;
+          }
+
+          .carousel-cell img {
+               height: 500px;
+          }
+
+          .carousel-cell:before {
+               display: block;
+               color: white;
+          }
+
+          .carousel-support {
+               height: 500px;
+          }
+
+          @media only screen and (max-width: 1012px) {
+               .carousel {
+                    height: 300px;
+               }
+
+               .carousel-cell {
+                    height: 300px;
+                    width: 25%;
+               }
+
+               .carousel-cell img {
+                    height: 300px;
+               }
+
+               .carousel-support {
+                    height: 300px;
+               }
+          }
+
+          @media only screen and (max-width: 600px) {
+               .carousel {
+                    height: 200px;
+               }
+
+               .carousel-cell {
+                    height: 200px;
+                    width: 20%;
+               }
+
+               .carousel-cell img {
+                    height: 200px;
+               }
+
+               .carousel-support {
+                    height: 200px;
+               }
+          }
+     </style>
+     <!-- Navbar end -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-oW5F5VHk7Vw1jgI6CI5B5A5b5K5Z5M5I5E5u5o5M5M5B5M5C5O5I5S5I5K5v5U5R5C5N5U5L5q5Q==5I5G5r5e5d5t5r5u5U5H5t5r5i5g5i5i5h5j5d5R5T5x5j5r5V5B5M5E5S5D5I5M5w5f5f5g5z5E5M5f5j5f5y5O5r5W5f5E5j5Z5V5V5E5t5S5v5U5X5V5V5f5q5Q==5N5p5z5l5H5P5j5N5m5B5L5k5j5z5b5f5h5X5x5J5j5v5l5P5w5J5n5H5t5K5B5E5M5E5G5B5E5T5U5w5S5H5F5E5X5T5R5C5k5g5X5U5V5w5D5l5V5O5T5V5G5Z5q5f5V5B5l5C5J5T5R5d5T5R5S5T5Z5j5U5J5T5C5E5L5w5B5w5R5d5G5K5D5G5K5T5U5C5f5F5l5M5T5L5S5n5C5v5z5D5" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-pzjw/VS9I9I9I9G5I5K5H5F5n5i3M1T5P5pOTvU3tl4J5x5B8zpiV4z3P5p2b1dK5G5K5B5B5F5F7l5Y5S5gD5" crossorigin="anonymous"></script>
+     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+     <script src="script.js"></script>
+</body>
+
+</html>
